@@ -1,0 +1,140 @@
+section {
+    display: block;
+}
+body {
+    /* top, transparent Blue */
+    background:linear-gradient(
+      rgba(4,9,30,0.8),
+      rgba(4,9,30,0.8)
+    ),
+    /* bottom, image */
+    url(../img/banner-bg.jpg);
+    background-position: center center;
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+/* //// Home Page //// */
+.navbar{
+    z-index: 1;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.fullscreen {
+    height: 700px !important;
+}
+.banner-content {
+    text-align: left;
+}
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 10px;
+    font-family: "Poppins",sans-serif;
+    color:
+    #fff;
+}
+.banner-content p{
+    color: #777;
+    }
+/* /// responsive */
+/* .banner-content h1 {
+    font-size: 45px;
+}
+.banner-content h1 {
+    font-size: 36px;
+} */
+.banner-content .primary-btn {
+    background-color:#f7631b;
+color:
+    #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.primary-btn {
+    background:
+    #f7631b;
+        background-color: rgb(247, 99, 27);
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+.main-menu {
+    /* padding-bottom: 20px; */
+    padding-top: 10px;
+    border-bottom: 1px solid
+    #39353e;
+}
+.container {
+    max-width: 1140px;
+}
+
+.nav-bg{
+    background-color:#04091e;
+}
+
+
+/* ///Login Page /// */
+.form-login{
+    margin:15% auto 0 auto;
+}
+.primary-btn-login {
+    background:
+    #f7631b;
+        background-color: rgb(247, 99, 27);
+    /* line-height: 42px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+/* ///Register Page/// */
+.banner-content h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1em;
+    font-family: "Poppins",sans-serif;
+    color:
+    #fff;
+}
